@@ -1,5 +1,5 @@
-class project
-  attr_accessor :project
+class Project
+  attr_accessor :project, :name
 
   def initialize(project)
     @project = project
